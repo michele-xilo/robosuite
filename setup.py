@@ -18,7 +18,7 @@ setup(
         "numpy>=1.13.3",
         "numba>=0.49.1",
         "scipy>=1.2.3",
-        "mujoco>=2.3.0",
+        "mujoco>=3.10",  # mj_fullM(m, d, dst); MjData.qM removed in 3.11
         "Pillow",
         "opencv-python",
     ],
